@@ -1,0 +1,492 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,nav,div,section,a,p,ul,ol,li,span,header,footer,img{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* header top in css start */
+.header_top{
+    background: #f7f7f7;
+    height: 35px;
+
+}
+
+.h_title {
+    font-size: 12px;
+    color: #707070;
+    line-height: 35px;
+}
+.h_icon{
+ padding-left: 20px;
+}
+.h_icon li {
+    padding: 0 6px;
+}
+.h_icon li .c_iocn{
+    font-size: 14.44px;
+    color: #2e6abf;
+    line-height: 35px;
+}
+
+.mail_icon{
+    line-height: 35px;
+}
+
+.fa-envelope1{
+    background-image: linear-gradient(90deg,#00f,#87ceeb);
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.mail_icon span {
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+}
+/* header top in css end */
+
+/* heding part in css start */
+header{
+    padding: 10px 0;
+}
+
+.logo_title {
+    font-weight: 600;
+    line-height: 65px;
+    font-size: 23px;
+}
+
+.header_icon {
+    float: left;
+    border: 2px solid #e7eaec;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 2.2;
+    border-radius: 100%;
+    font-size: 15px;
+    margin-top: 16px;
+}
+
+.header_icon i {
+    color: #0083e6;
+    transform: rotate(0deg);
+    transition: all .5s ease;
+}
+
+.headr_text{
+    color: #242424;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.headr_text2 {
+    color: #090909;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.quintity{
+    position: relative;
+}
+
+.quintity h3 {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.quintity p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.q_title::after {
+	content: "";
+	position: absolute;
+	top: -8px;
+	left: -4px;
+	background: #2e6abf;
+	width: 3px;
+	height: 30px;
+}
+
+.q_title::before {
+	background: #008aff;
+	position: absolute;
+	top: -10px;
+	left: -4px;
+	width: 40px;
+	height: 3px;
+	display: block;
+	content: "";
+}
+
+.q_title2:before {
+    background: #008aff;
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    width: 3px;
+    height: 30px;
+    display: block;
+    content: "";
+}
+
+.q_title2:after {
+    content: "";
+    position: absolute;
+    background: #008aff;
+    width: 30px;
+    height: 3px;
+    bottom: -5px;
+    right: 0;
+}
+/* heding part in css end */
+
+/* navigation part in css start */
+.navbar {
+    background-color: #1662dc;
+}
+.navbar-nav .nav-item{
+    padding: 0 18px;
+}
+.navbar-nav .nav-item .nav-link {
+    font-size: 14.44px;
+    font-weight: 500;
+    color: #fff;
+}
+/* navigation part in css end */
+
+/* bg part in css strat */
+.carousel-caption {
+	position: absolute;
+	right: 15%;
+	bottom: 14rem;
+	left: 15%;
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+	color: #fff;
+	text-align: center;
+}
+
+.carousel-caption h5 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.carousel-caption p {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase !important;
+    margin-top: 20px;
+}
+
+.courosel-a {
+    padding: 7px 25px;
+    display: inline-block;
+    border-radius: 160px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.courosel-a:hover {
+    padding: 7px 25px;
+    display: inline-block;
+    border-radius: 160px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #0164cc;
+}
+/* bg part in css end */
+
+/* comon heding part in css start */
+.c_h_part{
+      padding-top: 70px;
+}
+
+.c_h_text{
+    font-size: 14.44px;
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+    padding-top: 20px;
+}
+
+.c_h_title {
+    color: #386ab1;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+/* comon heding part in css end */
+
+/* about part in css start */
+.about_main{
+    margin-bottom: 100px;
+}
+
+.about_box {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #386ab1;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+
+.about-animation {
+    transition: all .5s ease-in-out;
+}
+
+.about-animation:hover {
+    transform: scale(1.09);
+    box-shadow: 8px 8px 7px rgba(0,0,0,.3);
+    border-radius: 5px;
+    border: 2px solid #386ab1;
+    box-sizing: border-box;
+}
+
+
+.about-animation img {
+    width: 80px;
+    height: 53px;
+}
+/* about part in css end */
+
+
+/* co-founder part in css start */
+.founder_main{
+    background-color: #e7f0fd;
+    padding: 80px 0;
+}
+.co-founder_pic{
+    overflow: hidden;
+    
+    position: relative;
+}
+.image2{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+.image1{
+    transition: all .4s ease-in-out;
+}
+.image1:hover{
+    transform: scale(1.10);
+    transition: all .4s ease-in-out;
+}
+
+.co-founder_contain{
+    padding-top: 80px;
+}
+
+.co-founder_contain h3{
+    font-size: 22.8px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.co-founder_contain p{
+    font-size: 14.44px;
+    color: rgb(33, 37, 41);
+    font-weight: 400;
+    margin-bottom: 15.2px;
+    line-height: 32px;
+}
+
+.founder_btn-a{
+    padding: 13px 25px;
+    display: inline-block;
+    border-radius: 160px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    background-color: #005bea;
+    background-image: linear-gradient(90deg,#005bea 0,#00c6fb 50%,#005bea);
+    transition: all .2s ease-in-out;
+    background-size: 200% 100%;
+}
+
+.founder_btn-a:hover{
+    color: #fff;
+    background-color: #005bea;
+    background-image: linear-gradient(to right #005bea 0,#00c6fb 50%,#005bea);
+    transition: all .2s ease-in-out;
+    background-size: 200% 100%;
+}
+/* co-founder part in css end */
+
+/* our companise part in css start */
+
+.company-profile-img {
+    box-shadow: 2px 3px 3px 2px rgba(0,0,0,.1);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.company-profile-img {
+    height: 160px;
+    width: 161px;
+}
+
+.company-profile-img img{
+    width: 100%;
+}
+
+.company-profile-div {
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+
+.company-profile-div:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.company-profile-div {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+.company-profile-div {
+    text-align: center;
+}
+
+.company-profile-div p {
+    font-size: 14px;
+    color: #242424;
+    font-weight: 600;
+    line-height: 22px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+/* our companise part in css end */
+
+
+/* The Strategies part in css start */
+.the_main{
+    background: #386ab1;
+}
+
+.the_contain{
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+.the_contain p{
+    font-size: 14.44px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 15.2px;
+    line-height: 26px;
+}
+
+.the_contain h2{
+    font-size: 30.4px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 7.6px;
+    line-height: 26px;
+}
+
+.strategies-img {
+    height: auto;
+    max-height: 100%;
+    padding-right: 10px;
+}
+/* The Strategies part in css end */
+
+
+/* our product part in css start */
+.our-products-div {
+    padding-bottom: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.product-div-image {
+    position: relative;
+}
+
+.product-div-image img {
+    height: 177px;
+    width: 177px;
+}
+
+.product-div-image p{
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.product-div-image:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #eaf7ff;
+    width: 93%;
+    height: 50%;
+    z-index: -1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all .5s ease;
+}
+
+.product-div-image:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #d8f2ff;
+    width: 93%;
+    height: 50%;
+    z-index: -1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: all .5s ease;
+}
+
+
+.product-button-a {
+    padding: 13px 25px;
+    display: inline-block;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    background-color: #005bea;
+    background-image: linear-gradient(90deg,#005bea 0,#00c6fb 50%,#005bea);
+    transition: all .2s ease-in-out;
+    background-size: 200% 100%;
+}
+
+.product_main{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* our product part in css end */
